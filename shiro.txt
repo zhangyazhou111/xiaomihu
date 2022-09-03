@@ -1,0 +1,4 @@
+   1. Subject subject = SecurityUtils.getSubject();
+   2. UsernamePasswordToken token=new UsernamePasswordToken(username,password);
+   //验证的原理
+  3.subject.login(token);
